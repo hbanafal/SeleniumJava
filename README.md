@@ -6,13 +6,13 @@ including the needed tools installations to be made.
 
 Pre-requisite to run the tests :
 
-Java 1.8 should be installed on the machine.
-Maven should be installed on the machine.
-Firefox should be installed on the machine.
+1. Java 1.8 should be installed on the machine.
+2. Maven should be installed on the machine.
+3. Firefox should be installed on the machine.
 
 Steps to run :
 
-Clone the project using command : git clone https://github.com/hbanafal/frontiercargroup-qa.git
-Change the directory to project's dir : cd frontiercargroup-qa
-Run tests using command : mvn clean test
-Open test reports in the folder : frontiercargroup-qa/test-output/emailable-report.html
+1. Clone the project using command : git clone https://github.com/hbanafal/frontiercargroup-qa.git
+2. Change the directory to project's dir : cd frontiercargroup-qa
+3. Run tests using command : mvn clean test
+4. Open test reports in the folder : frontiercargroup-qa/test-output/emailable-report.html

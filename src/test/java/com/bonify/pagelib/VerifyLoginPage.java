@@ -5,9 +5,7 @@ import org.testng.annotations.Test;
 
 import com.bonify.genericlib.SolventSelenium;
 
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Ignore;
 
 public class VerifyLoginPage {
@@ -16,7 +14,7 @@ public class VerifyLoginPage {
 	
 	/**
 	 * This is the setup method to launch the browser and open Bonify Login page.
-	 * Initilizing Page Objcets 
+	 * Initializing Page Objects 
 	 *
 	 * @since August 2018
 	 * @author pankhurisharma
@@ -34,6 +32,7 @@ public class VerifyLoginPage {
 	 * @author pankhurisharma
 	 */
 	@Test
+	@Ignore
 	public void verifyLoginPageElements() {
 		loginPage.verifyLoginPage();
 	}
@@ -45,6 +44,7 @@ public class VerifyLoginPage {
 	 * @author pankhurisharma
 	 */
 	@Test
+	@Ignore
 	public void verifyLoginWithCorrectCreds() {
 		loginPage.enterEmail("pankhuri1110@yahoo.com");
 		loginPage.enterPassword("pankhuri@1");
@@ -59,6 +59,7 @@ public class VerifyLoginPage {
 	 * @author pankhurisharma
 	 */
 	@Test
+	@Ignore
 	public void verifyLoginWithIncorrectPassword() {
 		loginPage.enterEmail("pankhuri1110@yahoo.com");
 		loginPage.enterPassword("pankhuri@123");
@@ -73,6 +74,7 @@ public class VerifyLoginPage {
 	 * @author pankhurisharma
 	 */
 	@Test
+	@Ignore
 	public void verifyLoginWithIncorrectEmail() {
 		loginPage.enterEmail("pankhuri11101@yahoo.com");
 		loginPage.enterPassword("pankhuri@1");
